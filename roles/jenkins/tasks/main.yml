@@ -1,6 +1,6 @@
 ---
-#- name: install java
-#  yum: name=java state=installed
+- name: install java
+  yum: name=java state=installed
 
 - name: create jenkins.repo
   template:
